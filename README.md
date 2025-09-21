@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Juspay Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a **React-based web application** that consists of two main sections:  
+1. **Dashboard Page** – provides key business insights with summary cards, charts, and top products.  
+2. **Orders Page** – displays and manages detailed order information in a responsive table format.  
 
-## Available Scripts
+The app is built with **React and Material UI (MUI)** and is fully responsive for desktop, tablet, and mobile screens.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 📊 Dashboard Page
+- **Summary Cards**: Quick stats on total orders, pending/completed orders, and revenue.
+- **Sales Chart**: Visual representation of performance over time.
+- **Top Products**: Highlights best-performing products.
+- **Responsive Layout**: Cards and charts adjust seamlessly for smaller screens.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📋 Orders Page
+- **Orders Table**: Displays order details including ID, user, project, address, date, and status.
+- **Search & Filter**: Quickly find orders or filter by status.
+- **Sorting**: Sort data by Order ID or User name.
+- **Pagination**: Easy navigation for large datasets.
+- **Add Order**: Dialog to add a new order with all details.
+- **Row Selection**: Checkboxes for selecting multiple orders.
+- **Responsive Design**: Table is scrollable on smaller devices.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
+- **React (with Hooks)** – frontend framework
+- **Material UI (MUI v5)** – responsive UI components
+- **React Context API** – light/dark theme management
+- **JavaScript (ES6+)**
+- **Icons** – [Material Icons](https://mui.com/material-ui/material-icons/)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 Project Structure
+src/
+│── assets/ # Static images (avatars, product images)
+│── components/ # Reusable UI components
+│── context/ # ThemeContext for theme switching
+│── pages/
+│ ├── Dashboard.js # Dashboard page
+│ ├── Orders.js # Orders management page
+│── App.js # Main app entry point
+│── index.js # React DOM render
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚡ Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1. Clone the repository
 
-### `npm run eject`
+Open your CMD!!!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+git clone <your-repo-url>
+cd <your-project-folder>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Make sure you have Node.js (>=16) and npm installed.
+Then run:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install
 
-## Learn More
+### 3. Run the application
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This will start the development server at:
 
-### Code Splitting
+http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 4. Build for production
+npm run build
