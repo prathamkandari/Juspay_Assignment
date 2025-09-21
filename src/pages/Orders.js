@@ -286,7 +286,7 @@ export default function Orders() {
             <Paper
                 elevation={0}
                 sx={{
-                    width: { xs: "35.5%", sm:"40%", md: "100%", lg: "100%" },
+                    width: { xs: "37.5%", sm:"40%", md: "100%", lg: "100%" },
                     borderRadius: 2,
                     backgroundColor: theme === "light" ? palette.bg : "#1e1e1e",
                     border: `1px solid ${palette.border}`,
