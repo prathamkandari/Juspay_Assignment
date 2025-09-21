@@ -307,16 +307,16 @@ export default function Sidebar({ open, onClose }) {
           flex: 1,
           overflowY: "auto",
           overflowX: "hidden",
-          scrollbarWidth: "thin", // ✅ Firefox
-          "&::-webkit-scrollbar": { width: "6px" }, // ✅ Chrome/Safari/Edge
+          scrollbarWidth: "thin",
+          "&::-webkit-scrollbar": { width: "6px" },
           "&::-webkit-scrollbar-thumb": {
             backgroundColor:
-              theme.palette.mode === "light" ? "#9ca3af" : "#6b7280", // match Notifications.js muted color
+              theme.palette.mode === "light" ? "#9ca3af" : "#6b7280",
             borderRadius: "4px",
           },
           "&::-webkit-scrollbar-track": {
             backgroundColor:
-              theme.palette.mode === "light" ? "#f9fafb" : "#111827", // optional track color
+              theme.palette.mode === "light" ? "#f9fafb" : "#111827",
           },
         }}
       >

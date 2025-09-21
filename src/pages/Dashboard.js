@@ -9,7 +9,7 @@ import SalesPieChart from "../components/SalesPieChart";
 
 const Dashboard = () => {
     return (
-        <Box sx={{ p: { xs: 2, sm: 3, md: 4 }, justifyContent: "center", m: "auto"}}>
+        <Box sx={{ p: { xs: 2, sm: 3, md: 4 }, pl: {md: 6}}}>
             <Typography
                 variant="h5"
                 sx={{
