@@ -1,0 +1,141 @@
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+.card {
+    padding: 3rem;
+    border-radius: 16px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Light mode */
+.card.light {
+    background: #f9fafb;
+    color: #111827;
+}
+
+.card.light.highlight {
+    background: #e6f4ff;
+}
+
+/* Dark mode */
+.card.dark {
+    background: #111316;
+    color: #f3f4f6;
+}
+
+.card.dark.highlight {
+    background: #E3F5FF;
+}
+
+.card-title {
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.card.light .card-title {
+    color: #374151;
+}
+
+.card.dark .card-title {
+    color: #d1d5db;
+}
+
+.card-main {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.card-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.card.light .card-value {
+    color: #111827;
+}
+
+.card.dark .card-value {
+    color: #ffffff;
+}
+
+.card.dark.highlight .card-title,
+.card.dark.highlight .card-value,
+.card.dark.highlight .card-change,
+.card.dark.highlight .card-change.positive,
+.card.dark.highlight .card-change.negative {
+    color: #000 !important;
+}
+
+.card-change {
+    font-size: 0.85rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.card.light .card-change.positive {
+    color: #000;
+}
+
+.card.light .card-change.negative {
+    color: #000;
+}
+
+.card.dark .card-change.positive {
+    color: #fff;
+}
+
+.card.dark .card-change.negative {
+    color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .dashboard-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .card {
+        padding: 2rem;
+    }
+
+    .card-main {
+        gap: 1.5rem;
+    }
+
+    .card-value {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .dashboard-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        justify-content: center;
+    }
+
+    .card {
+        padding: 0.6rem;
+        border-radius: 12px;
+    }
+
+    .card-title {
+        font-size: 0.85rem;
+    }
+
+    .card-value {
+        font-size: 1.2rem;
+    }
+
+    .card-change {
+        font-size: 0.75rem;
+    }
+}

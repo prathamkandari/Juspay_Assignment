@@ -1,9 +1,10 @@
-/* Theme Variables */
 :root {
   --bg-light: #ffffff;
   --bg-dark: #1e1e1e;
-  --text-light: #000;
-  --text-dark: #fff;
+  --text-light: #000000;
+  --text-dark: #ffffff;
+  --primary: #4f46e5;
+  --secondary: #f59e0b;
 }
 
 /* Light Theme */
@@ -18,11 +19,8 @@
   --text: var(--text-dark);
 }
 
-/* Global Styles */
+/* Global usage */
 body {
   background: var(--bg);
   color: var(--text);
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  transition: background 0.3s ease, color 0.3s ease;
 }
