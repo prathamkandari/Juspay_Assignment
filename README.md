@@ -4,8 +4,6 @@ This project is a **React-based web application** that consists of two main sect
 1. **Dashboard Page** – provides key business insights with summary cards, charts, and top products.  
 2. **Orders Page** – displays and manages detailed order information in a responsive table format.  
 
-The app is built with **React and Material UI (MUI)** and is fully responsive for desktop, tablet, and mobile screens.
-
 ---
 
 ## 🚀 Features
@@ -35,17 +33,6 @@ The app is built with **React and Material UI (MUI)** and is fully responsive fo
 - **Icons** – [Material Icons](https://mui.com/material-ui/material-icons/)
 
 ---
-
-## 📂 Project Structure
-src/
-│── assets/ # Static images (avatars, product images)
-│── components/ # Reusable UI components
-│── context/ # ThemeContext for theme switching
-│── pages/
-│ ├── Dashboard.js # Dashboard page
-│ ├── Orders.js # Orders management page
-│── App.js # Main app entry point
-│── index.js # React DOM render
 
 ## ⚡ Getting Started
 
