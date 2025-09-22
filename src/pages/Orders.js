@@ -275,7 +275,7 @@ export default function Orders() {
     };
 
     return (
-        <Box sx={{ p: { xs: 2, sm: 3, md: 4 } }}>
+        <Box sx={{ p: { xs: 2, sm: 3, md: 4 }}}>
             <Typography
                 variant="h6"
                 sx={{ mb: 2, color: palette.text, fontWeight: 600 }}
@@ -286,11 +286,13 @@ export default function Orders() {
             <Paper
                 elevation={0}
                 sx={{
-                    width: { xs: "37.5%", sm:"40%", md: "100%", lg: "100%" },
+                    width: { xs: "100%", sm:"100%", md: "80%", lg: "85%" },
                     borderRadius: 2,
                     backgroundColor: theme === "light" ? palette.bg : "#1e1e1e",
                     border: `1px solid ${palette.border}`,
                     overflow: "hidden",
+                    position: { xs: "absolute"}, 
+                    overflowX: { xs: "auto" },
                 }}
             >
                 {/* header controls */}
@@ -389,7 +391,7 @@ export default function Orders() {
                 <TableContainer
                     sx={{
                         width: "100%",
-                        overflowX: "auto", 
+                        overflowY: "auto", 
                         overflowX: "auto",
                         "& th, & td": {
                             fontSize: { xs: "0.5rem", sm: "0.8rem", md: "0.875rem" },
