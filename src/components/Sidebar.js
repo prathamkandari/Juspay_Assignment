@@ -29,7 +29,7 @@ import {
   ChevronRight,
 } from "@mui/icons-material"; // ✅ Using only MUI icons
 import { useTheme } from "@mui/material/styles";
-import Me from "../assets/imgs/User.jpg";
+import userProfile from "../assets/imgs/userProfile.png";
 
 const drawerWidth = 250;
 
@@ -59,8 +59,8 @@ export default function Sidebar({ open, onClose }) {
     >
       {/* Profile */}
       <Box sx={{ display: "flex", alignItems: "center", gap: 1.5 }}>
-        <Avatar src={Me} alt="profile" sx={{ width: 40, height: 40 }} />
-        <Typography fontWeight={600}>Pratham Kandari</Typography>
+        <Avatar src={userProfile} alt="profile" sx={{ width: 40, height: 40 }} />
+        <Typography fontWeight={600}>Bye Wind</Typography>
       </Box>
 
       <Divider sx={{ borderColor: "rgba(255,255,255,0.1)" }} />
