@@ -55,13 +55,15 @@ This project is a **React-based web application** that consists of two main sect
 
 Open your CMD!!!
 
+```bash
+
 git clone https://github.com/prathamkandari/Juspay_Assignment.git
 cd Juspay_Assignment
 
 ### 2. Install dependencies
 
-Make sure you have Node.js (>=16) and npm installed.
-Then run:
+#Make sure you have Node.js (>=16) and npm installed.
+#Then run:
 
 npm install
 
@@ -69,9 +71,11 @@ npm install
 npm start
 
 
-This will start the development server at:
+#This will start the development server at:
 
 http://localhost:3000
 
 ### 4. Build for production
 npm run build
+
+```
