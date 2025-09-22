@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 import { TrendingUp, TrendingDown } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
-import "./DashboardCards.css";
+import "../assets/css/DashboardCards.css";
 
 const DashboardCards = () => {
     const { theme } = useContext(ThemeContext);
