@@ -48,10 +48,13 @@
     display: flex;
     align-items: center;
     gap: 2rem;
+    transition: all 0.3s ease;
 }
 
 
 .card-value {
+    order: 1;
+    transition: order 0.3s ease;
     font-size: 1.8rem;
     font-weight: 700;
 }
@@ -73,11 +76,22 @@
 }
 
 .card-change {
+    order: 2;
+    transition: order 0.3s ease;
     font-size: 0.85rem;
     font-weight: 500;
     display: flex;
     align-items: center;
     gap: 0.25rem;
+}
+
+/* swap positions when hovered */
+.card:hover .card-value {
+    order: 2;
+}
+
+.card:hover .card-change {
+    order: 1;
 }
 
 .card.light .card-change.positive {

@@ -116,7 +116,7 @@ export default function Notifications({ open }) {
                         </ListItemAvatar>
                         <ListItemText
                             primary="You have a bug that needs..."
-                            secondary="Just now"
+                            secondary="12 hours ago"
                             primaryTypographyProps={{ sx: { color: palette.text, fontSize: 13 } }}
                             secondaryTypographyProps={{ sx: { color: palette.muted, fontSize: 12 } }}
                         />
@@ -130,7 +130,7 @@ export default function Notifications({ open }) {
                         </ListItemAvatar>
                         <ListItemText
                             primary="Andi Lane subscribed to you"
-                            secondary="Just now"
+                            secondary="Today, 11:59 AM"
                             primaryTypographyProps={{ sx: { color: palette.text, fontSize: 13 } }}
                             secondaryTypographyProps={{ sx: { color: palette.muted, fontSize: 12 } }}
                         />
