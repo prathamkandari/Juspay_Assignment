@@ -6,6 +6,21 @@ This project is a **React-based web application** that consists of two main sect
 
 ---
 
+## 🚀 Live Demo
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=vercel)](https://juspay-assignment-silk.vercel.app/)
+
+### Home Page – Light vs Dark
+
+| Light Theme | Dark Theme |
+|-------------|------------|
+| <img src="" width="700"/> | <img src="" width="700"/> |
+
+### Orders List – Light vs Dark
+
+| Light Theme | Dark Theme |
+|-------------|------------|
+| <img src="" width="700"/> | <img src="" width="700"/> |
+
 ## 🚀 Features
 
 ### 📊 Dashboard Page
@@ -40,8 +55,8 @@ This project is a **React-based web application** that consists of two main sect
 
 Open your CMD!!!
 
-git clone <your-repo-url>
-cd <your-project-folder>
+git clone https://github.com/prathamkandari/Juspay_Assignment.git
+cd Juspay_Assignment
 
 ### 2. Install dependencies
 
